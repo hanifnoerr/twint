@@ -110,7 +110,7 @@ async def Search(config, init):
         q += f" geocode:{config.Geo}"
     if config.Search:
 
-        q += f" {config.Search} lang:{config.Lang}"
+        q += f" {config.Search}"
     if config.Year:
         q += f" until:{config.Year}-1-1"
     if config.Since:
