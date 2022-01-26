@@ -113,3 +113,4 @@ ENV/
 *.txt
 
 test_twint.py
+.DS_Store
